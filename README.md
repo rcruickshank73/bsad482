@@ -19,7 +19,7 @@ Remote work has become a fundamental aspect of modern employment, driven by tech
   
 3. **Employee Engagement Level (EEL)**
    - Measures motivation, job satisfaction, and overall engagement using survey data and company records.
-   - Target: Maintain an engagement score of at least 7/10.
+   - Target: Maintain an engagement score of at least 70.
    - Baseline: Current company-wide average.
   
 4. **Stress and Burnout Rate (SBR)**
@@ -31,3 +31,12 @@ Remote work has become a fundamental aspect of modern employment, driven by tech
    - Compares employee retention in remote, hybrid, and in-office work environments.
    - Target: Reduce voluntary turnover by 10% annually.
    - Baseline: Current company turnover rate.
+
+DATA FOR TERM PROJECT MILESTONE 2:
+
+Below are the visualizations for each of my 5 Key Performance Indicators, along with an interpretation of each visualization.
+
+KPI #1: Employee Productivity
+
+
+
