@@ -1,0 +1,1 @@
+Many of my datasets I ended up using were in preset excel files. Therefore, I cleaned the datasets in excel and removed any unnecessary columns and rows that were not relevant to what the project was looking for. I also removed all duplicate data and standardized the point scales to match for easier interpretation of the data. 
