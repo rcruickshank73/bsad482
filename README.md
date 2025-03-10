@@ -37,6 +37,8 @@ DATA FOR TERM PROJECT MILESTONE 2:
 Below are the visualizations for each of my 5 Key Performance Indicators, along with an interpretation of each visualization.
 
 KPI #1: Employee Productivity
+![Image](https://github.com/user-attachments/assets/f5e2f8e2-8c16-4e4d-a136-ef5db82524b6)
 
+![Image](https://github.com/user-attachments/assets/7fd1de17-9f45-4a49-9fc4-205997ab89ab)
 
 
