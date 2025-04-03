@@ -63,7 +63,10 @@ KPI #5: Retention and Turnover Rates
 
 In this visualization, I am evaluating the reasons why employees left their current jobs, and whether working in office, hybrid, or fully remote made a difference. This is all compared to the average tenured months with the company. The results are varied depending on the reason for the turnover so there is not a clear pattern. That being said, hybrid workers left primarily for better opportunties and management issues, in office workers for job insecurity and salary, and remote workers for job insecurity and management issues. On the right side of the graph, the retained employees are listed, with the highest retained group being hybrid workers, followed by in office, and then remote. Which could be used to interpret that remote employees, again, are not enjoying their remote work as much as in an office setting. 
 
+
 DATA FOR TERM PROJECT MILESTONE 3 
+
+Chosen KPI: #5 Retention and Turnover Rate
 
 CODE:
 
@@ -124,3 +127,14 @@ print(conf_matrix_rf)
 print("Classification Report:")
 print(class_report_rf)
 
+RESULTS
+
+Accuracy Measure: 99.5% Cross Validation
+
+Decision Tree/Random Forest Plot 
+
+![Image](https://github.com/user-attachments/assets/7bdd2144-1409-4429-ac63-39d5d9da690f)
+
+Confusion Matrix: Displayed as a heatmap
+
+![Image](https://github.com/user-attachments/assets/412520a8-6c4a-435f-bdee-40c79474f8d3)
