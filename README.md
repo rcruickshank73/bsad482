@@ -108,7 +108,6 @@ class_report_rf = classification_report(y_test, y_pred)
 # Plot Decision Tree from Random Forest
 plt.figure(figsize=(12, 8))
 plot_tree(rf_model.estimators_[0], feature_names=final_features, class_names=["Left", "Retained"], filled=True, rounded=True)
-plt.title("Sample Decision Tree from Random Forest Model")
 plt.show()
 
 # Plot Confusion Matrix Heatmap
@@ -133,7 +132,7 @@ Accuracy Measure: 99.5% Cross Validation
 
 Decision Tree/Random Forest Plot 
 
-![Image](https://github.com/user-attachments/assets/7bdd2144-1409-4429-ac63-39d5d9da690f)
+![Image](https://github.com/user-attachments/assets/9747769e-967d-45e3-9f25-daee28724b6d)
 
 Confusion Matrix: Displayed as a heatmap
 
