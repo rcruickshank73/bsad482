@@ -63,3 +63,64 @@ KPI #5: Retention and Turnover Rates
 
 In this visualization, I am evaluating the reasons why employees left their current jobs, and whether working in office, hybrid, or fully remote made a difference. This is all compared to the average tenured months with the company. The results are varied depending on the reason for the turnover so there is not a clear pattern. That being said, hybrid workers left primarily for better opportunties and management issues, in office workers for job insecurity and salary, and remote workers for job insecurity and management issues. On the right side of the graph, the retained employees are listed, with the highest retained group being hybrid workers, followed by in office, and then remote. Which could be used to interpret that remote employees, again, are not enjoying their remote work as much as in an office setting. 
 
+DATA FOR TERM PROJECT MILESTONE 3 
+
+CODE:
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import plot_tree
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+
+# Load the dataset
+rtr_df = pd.read_csv("Retention and Turnover Rates.csv")
+
+# Define features and target
+final_features = ["Job Satisfaction Score", "Tenure Months", "Turnover Reason"]
+X = rtr_df[final_features]
+y = rtr_df["Retention Status"]
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train Random Forest model
+rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
+rf_model.fit(X_train, y_train)
+
+# Cross-validation accuracy
+cv_scores = cross_val_score(rf_model, X, y, cv=5)
+cv_mean_accuracy = cv_scores.mean()
+
+# Predictions
+y_pred = rf_model.predict(X_test)
+
+# Evaluate model
+accuracy_rf = accuracy_score(y_test, y_pred)
+conf_matrix_rf = confusion_matrix(y_test, y_pred)
+class_report_rf = classification_report(y_test, y_pred)
+
+# Plot Decision Tree from Random Forest
+plt.figure(figsize=(12, 8))
+plot_tree(rf_model.estimators_[0], feature_names=final_features, class_names=["Left", "Retained"], filled=True, rounded=True)
+plt.title("Sample Decision Tree from Random Forest Model")
+plt.show()
+
+# Plot Confusion Matrix Heatmap
+plt.figure(figsize=(5, 4))
+sns.heatmap(conf_matrix_rf, annot=True, fmt="d", cmap="Blues", xticklabels=["Left", "Retained"], yticklabels=["Left", "Retained"])
+plt.xlabel("Predicted Label")
+plt.ylabel("True Label")
+plt.title("Confusion Matrix for Random Forest Model")
+plt.show()
+
+# Print Accuracy Metrics
+print(f"Cross-Validation Accuracy: {cv_mean_accuracy:.4f}")
+print(f"Test Set Accuracy: {accuracy_rf:.4f}")
+print("Confusion Matrix:")
+print(conf_matrix_rf)
+print("Classification Report:")
+print(class_report_rf)
+
