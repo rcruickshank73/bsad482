@@ -1,5 +1,12 @@
 # The Impact of Remote Work Analysis Project
 
+*By: Ryan Cruickshank*
+
+## Table of Contents:
+
+1. Introduction:
+   a) 
+
 ## Executive Summary
 Remote work has become a fundamental aspect of modern employment, driven by technological advancements and global events such as the COVID-19 pandemic. While remote work offers flexibility and potential productivity gains, it also presents challenges related to employee well-being, collaboration, and organizational effectiveness. This study examines the long-term implications of remote work on productivity and mental health, using key datasets to inform best practices and policy recommendations. By analyzing global trends and key determinants of successful remote work models, this research aims to provide data-driven insights for organizations adapting to hybrid and remote work environments.
 
