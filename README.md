@@ -5,7 +5,38 @@
 ## Table of Contents:
 
 1. Introduction:
-   a) 
+   a) Problem Context
+   b) Significance of the Study
+   c) Executive Summary
+
+2. Exploratory Data Findings
+   a) Key Performance Indicators 1-5
+   b) Visual Representations of KPIs 1-5
+
+3. Statistical Analysis
+   a) Accuracy Measure
+   b) Decision Tree/Random Forest Plot
+   c) Confusion Matrix
+
+4. Discussion
+
+5. References 
+
+## Problem Context 
+Remote work has become a defining feature of modern employment, accelerated by global events such as the COVID-19 pandemic. As organizations continue to embrace flexible work arrangements, it is crucial to evaluate the effects of remote work on employee productivity and well-being. While some studies suggest increased efficiency and work-life balance, others highlight challenges such as isolation, burnout, and difficulties in collaboration. This analysis focuses on understanding the long-term implications of remote work on employee performance and mental health, using data-driven insights to inform policies and best practices. The challenges of remote work are complex due to its connected nature with other workplace factors. Digital transformation has changed communication dynamics [[1]](#1), while work-life balance concerns have gained prominence [[2]](#2). Different industries and job roles experience varying degrees of productivity shifts [[3]](#3). Understanding these dynamics requires an analysis incorporating technology, employee engagement, and organizational policies. The ability to work remotely impacts career growth, job satisfaction, and overall well-being, necessitating a comprehensive evaluation to ensure equitable and effective remote work policies. 
+
+## Significance of the Study 
+This analysis is timely and crucial for several reasons: 
+
+1. Remote work adoption has increased significantly, yet its long-term productivity effects remain unclear [[4]](#4).
+
+2. Employee well-being and mental health concerns are growing, particularly regarding work-life balance and isolation [[5]](#5).
+   
+3. Organizations are developing hybrid work models, necessitating data-driven insights to design effective policies [[6]](#6).
+
+4. Technological advancements in virtual collaboration tools create opportunities to enhance productivity and engagement [[7]](#7). 
+
+
 
 ## Executive Summary
 Remote work has become a fundamental aspect of modern employment, driven by technological advancements and global events such as the COVID-19 pandemic. While remote work offers flexibility and potential productivity gains, it also presents challenges related to employee well-being, collaboration, and organizational effectiveness. This study examines the long-term implications of remote work on productivity and mental health, using key datasets to inform best practices and policy recommendations. By analyzing global trends and key determinants of successful remote work models, this research aims to provide data-driven insights for organizations adapting to hybrid and remote work environments.
@@ -72,6 +103,8 @@ In this visualization, I am evaluating the reasons why employees left their curr
 
 
 DATA FOR TERM PROJECT MILESTONE 3 
+
+Option 1
 
 Chosen KPI: #5 Retention and Turnover Rate
 
@@ -144,3 +177,8 @@ Decision Tree/Random Forest Plot
 Confusion Matrix: Displayed as a heatmap
 
 ![Image](https://github.com/user-attachments/assets/412520a8-6c4a-435f-bdee-40c79474f8d3)
+
+## Discussion
+To summarize the project, I began by finding datasets and information on remote work productivity which led to my creation of my 5 KPIs. These KPIs show all factors of remote work, such as the productivity and engagement levels, the work-life balance, and the stress/burnout rates along with retention rates. These factors all outline the different aspects of remote work, and why people enjoy it or not. I then graphed these KPIs in tableau to get a visual understanding of the relationships between the KPIs. Next, I chose Option 1 for the statistical analysis, which is the Decision Tree Based Prediction Model. I chose KPI #5, retention and turnover rate. With that, I created the decision tree and a confusion matrix displayed as a heatmap.
+
+## References 
