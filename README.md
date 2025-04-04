@@ -182,3 +182,18 @@ Confusion Matrix: Displayed as a heatmap
 To summarize the project, I began by finding datasets and information on remote work productivity which led to my creation of my 5 KPIs. These KPIs show all factors of remote work, such as the productivity and engagement levels, the work-life balance, and the stress/burnout rates along with retention rates. These factors all outline the different aspects of remote work, and why people enjoy it or not. I then graphed these KPIs in tableau to get a visual understanding of the relationships between the KPIs. Next, I chose Option 1 for the statistical analysis, which is the Decision Tree Based Prediction Model. I chose KPI #5, retention and turnover rate. With that, I created the decision tree and a confusion matrix displayed as a heatmap.
 
 ## References 
+
+<a id="1">[1]</a> Microsoft. (2023). *Work Trend Index: Annual Report on Hybrid Work and Productivity*. [https://www.microsoft.com/work-trend-index](https://www.microsoft.com/work-trend-index).  
+
+<a id="2">[2]</a> U.S. Bureau of Labor Statistics. (2023). *Telework and Productivity Data*. [https://www.bls.gov/](https://www.bls.gov/).  
+
+<a id="3">[3]</a> Kaggle. (2023). *Remote Work and Productivity Dataset*. [https://www.kaggle.com/](https://www.kaggle.com/).  
+
+<a id="4">[4]</a> Organisation for Economic Co-operation and Development (OECD). (2023). *Telework and Productivity Database*. [https://www.oecd.org/employment/telework-productivity/](https://www.oecd.org/employment/telework-productivity/).  
+
+<a id="5">[5]</a> Gallup. (2023). *The State of the American Workplace: Remote Work and Productivity*. [https://www.gallup.com](https://www.gallup.com).  
+
+<a id="6">[6]</a> McKinsey & Company. (2022). *The Future of Work: Remote Work and Employee Well-being*. [https://www.mckinsey.com](https://www.mckinsey.com).  
+
+<a id="7">[7]</a> Forrester Research. (2022). *The Future of Remote Work: Trends and Best Practices*. [https://www.forrester.com](https://www.forrester.com).
+
